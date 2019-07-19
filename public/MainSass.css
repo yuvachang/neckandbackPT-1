@@ -1,12 +1,126 @@
-.App {
+.app {
   width: 100vw;
   height: 100vh;
-  background-color: white; }
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  align-content: center; }
+
+#routes {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  flex: 1;
+  display: flex; }
+
+::-webkit-scrollbar {
+  width: 5px;
+  display: block;
+  /* Handle */ }
+  ::-webkit-scrollbar-track {
+    display: none; }
+  ::-webkit-scrollbar-thumb {
+    background: #94c11d;
+    border: 0.3px solid white; }
+    ::-webkit-scrollbar-thumb:hover {
+      background: white;
+      cursor: pointer; }
 
 .navbar {
-  height: 5vh;
+  height: 80px;
   width: 100vw;
   background-color: #35424a;
   color: white;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  border-bottom: 2.5px solid #94c11d; }
+
+.home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+#banner {
+  position: relative;
+  min-height: 400px;
+  display: flex; }
+  #banner .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15vw;
+    text-align: center; }
+  #banner h1,
+  #banner h2,
+  #banner h3,
+  #banner h4 {
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white; }
+  #banner h1 {
+    font-size: 55px;
+    margin: 0; }
+  #banner .bg {
+    position: absolute;
+    background: url("/images/pt/showcase5.jpg") no-repeat 0 -250px;
+    background-size: cover;
+    opacity: 0.2;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto; }
+    #banner .bg-tint {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: #35424a; }
+  @media (hover: hover) {
+    #banner:hover {
+      cursor: default; } }
+
+#newsletter {
+  width: 100%;
+  height: 100px;
+  background-color: #35424a;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 300;
+  text-transform: capitalize; }
+  #newsletter form {
+    display: flex;
+    width: 40%; }
+    #newsletter form input {
+      border: 2px solid #94c11d;
+      padding: 10px;
+      /* margin: 4px 0; */
+      margin-right: 4px;
+      width: 100%;
+      max-width: 350px; }
+    #newsletter form button {
+      height: 38px;
+      background: #94c11d;
+      border: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: #ffffff; }
+
+#boxes .box {
+  text-align: center;
+  padding: 10px;
+  width: 30%;
+  max-height: 200px;
+  text-align: center; }
+  #boxes .box p {
+    font-size: 0.9em;
+    letter-spacing: 0; }
+  #boxes .box img {
+    width: 60px;
+    height: 60px; }

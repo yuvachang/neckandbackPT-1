@@ -1,10 +1,14 @@
+@import '../App/variables';
+
 .navbar {
-  height: 5vh;
+  height: 80px;
   width: 100vw;
 
-  background-color: #35424a;
+  background-color: $app-blue;
   color: white;
 
   display: flex;
   align-items: center;
+
+  border-bottom: 2.5px solid $lime-green;
 }
