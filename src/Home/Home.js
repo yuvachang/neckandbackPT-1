@@ -14,7 +14,7 @@ function Home() {
           </h1>
           <h4>
             Personal physical therapy sessions right at your home with Dr. Meina
-            Zhu-Chhimi DPT, CMT. Currently servicing residences living in Bergen
+            Zhu-Chhimi DPT, CMT. <br /> Currently servicing residences living in Bergen
             County, New Jersey.
           </h4>
         </div>
@@ -23,53 +23,54 @@ function Home() {
         </div>
       </section>
 
+      <section id='boxes'>
+        <div className='boxes-row'>
+          <Box 
+            className="box" 
+            icon="far fa-clock fa-3x"
+            title='60-90 min evaluation' 
+            description='Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.' 
+          />
+          <Box 
+            className="box" 
+            icon="fas fa-hand-holding-heart fa-3x"
+            title='Urgent Care Visits' 
+            description='Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.' 
+          />
+          <Box 
+            className="box" 
+            icon="fas fa-cube fa-3x"
+            title="Bundled Treatment Packages"
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' 
+          />
+        </div>
+        <div className='boxes-row'>
+          <Box 
+            className="box" 
+            icon="fas fa-user-clock fa-3x" 
+            title="30-45 Min In Person"
+            description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure."
+          />
+          <Box 
+            className="box" 
+            icon="fas fa-history fa-3x"
+            title='Follow-Ups As Needed' 
+            description='Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.' 
+          />
+          <Box 
+            className="box" 
+            icon="fas fa-poll fa-3x"
+            title='Results Within 1-3 Sessions' 
+            description='Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.' 
+          />
+        </div>
+      </section>
+
       <section id='newsletter'>
         <h3>subscribe to our newsletter</h3>
         <SubscribeForm />
       </section>
 
-      <section id='boxes'>
-        <div className='boxes-row'>
-          <Box 
-            className="box" 
-            img='' 
-            title='60-90 min evaluation' 
-            description='text here text here' 
-          />
-          <Box 
-            className="box" 
-            img='' 
-            title='60-90 min evaluation' 
-            description='text here text here' 
-          />
-          <Box 
-            className="box" 
-            img='' 
-            title='60-90 min evaluation' 
-            description='text here text here' 
-          />
-        </div>
-        <div className='boxes-row'>
-          <Box 
-            className="box" 
-            img='' 
-            title='60-90 min evaluation' 
-            description='text here text here' 
-          />
-          <Box 
-            className="box" 
-            img='' 
-            title='60-90 min evaluation' 
-            description='text here text here' 
-          />
-          <Box 
-            className="box" 
-            img='' 
-            title='60-90 min evaluation' 
-            description='text here text here' 
-          />
-        </div>
-      </section>
     </div>
   )
 }

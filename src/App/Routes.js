@@ -1,6 +1,10 @@
 import React from 'react'
 import { Route, Switch, Redirect } from 'react-router-dom'
-import { Home, About, Services, Contact } from '../components'
+// import { Home, About, Services, Contact } from '../components'
+import Home from '../Home/Home'
+import About from '../About/About'
+import Services from '../Services/Services'
+import Contact from '../Contact/Contact'
 
 export default function Routes() {
   return (
