@@ -16,6 +16,15 @@ function Home() {
             Personal physical therapy sessions right at your home with Dr. Meina
             Zhu-Chhimi DPT, CMT. <br /> Currently servicing residences living in Bergen
             County, New Jersey.
+            {/* <br /> replace with css */}
+            {/* may need a free stock photo, banner photo might be copyright */}
+            <br />
+            <br />
+            <strong>CALL NOW</strong>
+            <br />
+            <i className="fas fa-envelope"></i> meina.zhu@gmail.com
+            <br />
+            <i className="fas fa-phone" /> (201) 389 - 8659   
           </h4>
         </div>
         <div className='bg-tint'>
