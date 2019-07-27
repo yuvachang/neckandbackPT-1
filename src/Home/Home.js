@@ -65,12 +65,6 @@ function Home() {
           />
         </div>
       </section>
-
-      <section id='newsletter'>
-        <h3>subscribe to our newsletter</h3>
-        <SubscribeForm />
-      </section>
-
     </div>
   )
 }

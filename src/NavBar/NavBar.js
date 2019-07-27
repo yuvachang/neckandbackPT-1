@@ -11,7 +11,7 @@ function NavBar () {
       <ul className="nav-items">
         <li className="nav-item"><a href='/'>HOME</a></li>
         <li className="nav-item"><a href='/about'>ABOUT</a></li>
-        <li className="nav-item"><a href='/service'>SERVICE</a></li>
+        <li className="nav-item"><a href='/services'>SERVICE</a></li>
         <li className="nav-item"><a href='/contact'>CONTACT</a></li>
       </ul>
     </div>
