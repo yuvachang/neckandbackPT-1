@@ -1,5 +1,8 @@
 import React from 'react'
-import SubscribeForm from './SubscribeForm'
+import SubscribeForm from '../Components/SubscribeForm'
+import Box from '../Components/Box'
+
+// const packageTitles = ['60-90 min evaluation', 'Urgent Care Visits', 'Bundled Treatment Packages', '30-45 Min In Person', 'Follow-Ups As Needed','Results Within 1-3 Sessions']
 
 function Home() {
   return (
@@ -26,93 +29,45 @@ function Home() {
       </section>
 
       <section id='boxes'>
-        <div className='box'>
-          <div className='symb clock' />
-          <img
-            alt='icon'
-            src='/images/icons/poll.svg'
-            style={{ transform: 'rotate(-90deg)' }}
+        <div className='boxes-row'>
+          <Box 
+            className="box" 
+            img='' 
+            title='60-90 min evaluation' 
+            description='text here text here' 
           />
-          <h3>60-90 min evaluation</h3>
-          <p>
-            In sunt ea adipisicing Lorem aliquip aute est sit deserunt ullamco
-            cupidatat nulla veniam
-          </p>
+          <Box 
+            className="box" 
+            img='' 
+            title='60-90 min evaluation' 
+            description='text here text here' 
+          />
+          <Box 
+            className="box" 
+            img='' 
+            title='60-90 min evaluation' 
+            description='text here text here' 
+          />
         </div>
-
-        <div className='box'>
-          <div className='symb heart'>
-            <img
-              alt='icon'
-              src='/images/icons/poll.svg'
-              style={{ transform: 'rotate(-90deg)' }}
-            />
-            <h3>Urgent Care Visits</h3>
-            <p>
-              In sunt ea adipisicing Lorem aliquip aute est sit deserunt ullamco
-              cupidatat nulla veniam
-            </p>
-          </div>
-        </div>
-
-        <div className='box'>
-          <div className='symb cube'>
-            <img
-              alt='icon'
-              src='/images/icons/poll.svg'
-              style={{ transform: 'rotate(-90deg)' }}
-            />
-            <h3>Bundled Treatment Packages</h3>
-            <p>
-              In sunt ea adipisicing Lorem aliquip aute est sit deserunt ullamco
-              cupidatat nulla veniam
-            </p>
-          </div>
-        </div>
-
-        <div className='box'>
-          <div className='symb userclock'>
-            <img
-              alt='icon'
-              src='/images/icons/poll.svg'
-              style={{ transform: 'rotate(-90deg)' }}
-            />
-            <h3>30-45 Min In Person</h3>
-            <p>
-              In sunt ea adipisicing Lorem aliquip aute est sit deserunt ullamco
-              cupidatat nulla veniam
-            </p>
-          </div>
-        </div>
-
-        <div className='box'>
-          <div className='symb history'>
-            <img
-              alt='icon'
-              src='/images/icons/poll.svg'
-              style={{ transform: 'rotate(-90deg)' }}
-            />
-            <h3>Follow-Ups As Needed</h3>
-            <p>
-              In sunt ea adipisicing Lorem aliquip aute est sit deserunt ullamco
-              cupidatat nulla veniam
-            </p>
-          </div>
-        </div>
-
-        <div className='box'>
-          <div className='symb poll'>
-            <img
-              alt='icon'
-              src='/images/icons/poll.svg'
-              style={{ transform: 'rotate(-90deg)' }}
-            />
-            <h3>Results Within 1-3 Sessions</h3>
-            <p>
-              In sunt ea adipisicing Lorem aliquip aute est sit deserunt ullamco
-              cupidatat nulla veniam
-            </p>
-          </div>
+        <div className='boxes-row'>
+          <Box 
+            className="box" 
+            img='' 
+            title='60-90 min evaluation' 
+            description='text here text here' 
+          />
+          <Box 
+            className="box" 
+            img='' 
+            title='60-90 min evaluation' 
+            description='text here text here' 
+          />
+          <Box 
+            className="box" 
+            img='' 
+            title='60-90 min evaluation' 
+            description='text here text here' 
+          />
         </div>
       </section>
     </div>

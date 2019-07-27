@@ -1,14 +1,52 @@
+
 @import '../App/variables';
 
-.navbar {
+.toolbar {
+  position: fixed;
   height: 80px;
   width: 100vw;
-
   background-color: $app-blue;
   color: white;
-
   display: flex;
   align-items: center;
-
   border-bottom: 2.5px solid $lime-green;
+  z-index: 100;
+  padding: 0 1rem;
+}
+
+.toolbar .logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.toolbar .spacer {
+  flex: 1;
+}
+
+ul.nav-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li.nav-item {
+  padding: 0 0.5rem;
+}
+
+li.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+li.nav-item a:hover {
+  color: $lime-green;
+  text-decoration: none;
+}
+
+li.nav-item a:active {
+  color: $lime-green;
+  text-decoration: none;
 }
