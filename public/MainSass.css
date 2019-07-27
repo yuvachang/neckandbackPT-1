@@ -151,18 +151,18 @@ li.nav-item a:active {
     #banner:hover {
       cursor: default; } }
 
-#boxes {
+#program-details {
   padding: 5%; }
-  #boxes .boxes-row {
+  #program-details .boxes-row {
     display: flex; }
-    #boxes .boxes-row .box {
+    #program-details .boxes-row .box {
       display: inline-block;
       text-align: center;
       padding: 40px;
       margin: 10px;
       width: 30%;
       max-height: 200px; }
-      #boxes .boxes-row .box p {
+      #program-details .boxes-row .box p {
         font-size: 0.9em;
         letter-spacing: 0; }
 

@@ -32,7 +32,9 @@ function Home() {
         </div>
       </section>
 
-      <section id='boxes'>
+      <section id='program-details'>  
+      {/* center this h3*/}
+        <h3>PROGRAM INCLUDES:</h3>  
         <div className='boxes-row'>
           <Box 
             className="box" 
