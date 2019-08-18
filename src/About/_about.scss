@@ -1,13 +1,41 @@
 @import '../App/variables';
 
 
-div#about {
-  margin-top: 80px;
+#about {
+  margin-top: 10px;
+  section {
+    padding: 5%;
+    margin: 5%;
+    .section {
+      &-title {
+        font-size: 25px;
+      }
+      &-content {
+        font-size: 20px;
+        display: flex;
+        &-image {
+          width: 33%;
+          .headshot {
+            width: 100%;
+          }
+        }
+        &-text {
+          width: 66%;
+          margin-right: 20%;
+          text-align: justify;
+          text-justify: inter-word;
+        }
+      }
+    }
+
+  }
+
 }
 
 .row {
   display: flex;
 }
+
 
 // .headshot{
 //   width: 50%;

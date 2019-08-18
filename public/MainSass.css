@@ -71,37 +71,32 @@
   border-bottom: 2.5px solid #94c11d;
   z-index: 100;
   padding: 0 1rem; }
+  .toolbar .spacer {
+    flex: 1; }
+  .toolbar #logo {
+    width: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: 5%; }
 
-.toolbar .logo a {
-  color: white;
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 900; }
-
-.toolbar .spacer {
-  flex: 1; }
-
-ul.nav-items {
+.nav-items {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   margin-right: 1.5rem; }
 
-li.nav-item {
+.nav-item {
   padding: 0 0.5rem; }
-
-li.nav-item a {
-  color: white;
-  text-decoration: none; }
-
-li.nav-item a:hover {
-  color: #94c11d;
-  text-decoration: none; }
-
-li.nav-item a:active {
-  color: #94c11d;
-  text-decoration: none; }
+  .nav-item a {
+    color: white;
+    text-decoration: none; }
+    .nav-item a:hover {
+      color: #94c11d;
+      text-decoration: none; }
+    .nav-item a:active {
+      color: #94c11d;
+      text-decoration: none; }
 
 .home {
   margin-top: 80px;
@@ -121,7 +116,8 @@ li.nav-item a:active {
     align-items: center;
     padding: 0 15vw;
     text-align: center;
-    top: 80px; }
+    top: 80px;
+    width: 100%; }
   #banner h1,
   #banner h2,
   #banner h3,
@@ -166,8 +162,25 @@ li.nav-item a:active {
         font-size: 0.9em;
         letter-spacing: 0; }
 
-div#about {
-  margin-top: 80px; }
+#about {
+  margin-top: 10px; }
+  #about section {
+    padding: 5%;
+    margin: 5%; }
+    #about section .section-title {
+      font-size: 25px; }
+    #about section .section-content {
+      font-size: 20px;
+      display: flex; }
+      #about section .section-content-image {
+        width: 33%; }
+        #about section .section-content-image .headshot {
+          width: 100%; }
+      #about section .section-content-text {
+        width: 66%;
+        margin-right: 20%;
+        text-align: justify;
+        text-justify: inter-word; }
 
 .row {
   display: flex; }

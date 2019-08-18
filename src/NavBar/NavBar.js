@@ -6,7 +6,7 @@ import './_navBar.scss'
 function NavBar () {
   return (
     <div className="toolbar">
-      <div className="logo"><a href='/'>NECK & BACK PT</a></div> 
+      <div className="logo"><img id="logo" src="main_logo.png" /></div> 
       <div className="spacer" /> 
       <ul className="nav-items">
         <li className="nav-item"><a href='/'>HOME</a></li>
