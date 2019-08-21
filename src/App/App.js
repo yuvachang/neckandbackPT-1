@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, NavBar } from '../components'
+import { Routes, NavBar, Footer } from '../components'
 import SubscribeForm from '../Components/SubscribeForm'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <NavBar />
       <div id='routes'>
         <Routes />
+        <Footer /> 
       </div>
       <section id='newsletter'>
         <h3>subscribe to our newsletter</h3>
