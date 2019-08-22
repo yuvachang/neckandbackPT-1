@@ -1,0 +1,43 @@
+@import '../App/variables';
+
+#footer {
+  width: 100%;
+  height: 50px;
+
+  background-color: $app-blue;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  color: white;
+  font-weight: 300;
+  text-transform: capitalize;
+
+  form {
+    display: flex;
+    width: 40%;
+
+    input {
+      // border: 2px solid #94c11d;
+
+      padding: 5px;
+      margin-right: 4px;
+
+      width: 100%;
+      max-width: 350px;
+    }
+
+    button {
+      background: #94c11d;
+      color: #ffffff;
+
+      height: 32px;
+
+      border: none;
+
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}

@@ -1,5 +1,4 @@
 import React from 'react'
-import SubscribeForm from '../Components/SubscribeForm'
 import Box from '../Components/Box'
 
 // const packageTitles = ['60-90 min evaluation', 'Urgent Care Visits', 'Bundled Treatment Packages', '30-45 Min In Person', 'Follow-Ups As Needed','Results Within 1-3 Sessions']
@@ -33,7 +32,6 @@ function Home() {
       </section>
 
       <section id='program-details'>  
-      {/* center this h3*/}
         <h3>PROGRAM INCLUDES:</h3>  
         <div className='boxes-row'>
           <Box 

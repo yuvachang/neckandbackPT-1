@@ -13,6 +13,13 @@
   display: flex;
   flex-direction: column;
   align-content: center;
+
+  overflow: hidden;
+}
+
+h1,h2,h3 {
+  margin: 0;
+  padding: 0;
 }
 
 #routes {
@@ -23,6 +30,12 @@
 
   flex: 1;
   display: flex;
+
+  // prevent horizontal scroll
+  & > * {
+    width: 100%;
+    overflow-x: hidden;
+  }
 }
 
 ::-webkit-scrollbar {
@@ -33,57 +46,9 @@
     display: none;
   }
 
-  /* Handle */
+  // Handle
   &-thumb {
     background: $lime-green;
     border: 0.3px solid white;
-
-    &:hover {
-      background: white;
-      cursor: pointer;
-    }
-  }
-}
-
-
-#newsletter {
-  width: 100%;
-  height: 70px;
-  z-index: 99;
-
-  background-color: $app-blue;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-  color: white;
-  font-weight: 300;
-  text-transform: capitalize;
-  position: fixed;
-  bottom: 0;
-  
-
-  form {
-    display: flex;
-    width: 40%;
-
-    input {
-      border: 2px solid #94c11d;
-      padding: 10px;
-      /* margin: 4px 0; */
-      margin-right: 4px;
-      width: 100%;
-      max-width: 350px;
-    }
-
-    button {
-      height: 38px;
-      background: #94c11d;
-      border: 0;
-      padding-left: 20px;
-      padding-right: 20px;
-      color: #ffffff;
-    }
   }
 }

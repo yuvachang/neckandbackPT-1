@@ -1,61 +1,48 @@
-
 @import '../App/variables';
 
-// .toolbar .logo a {
-//   color: white;
-//   text-decoration: none;
-//   font-size: 2rem;
-//   font-weight: 900;
-// }
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-
-.toolbar  {
-  position: fixed;
   height: 80px;
-  width: 100vw;
+  width: 100%;
+
+  padding: 0 20px;
+  box-sizing: border-box;
+
   background-color: $app-blue;
   color: white;
-  display: flex;
-  align-items: center;
-  border-bottom: 2.5px solid $lime-green;
-  z-index: 100;
-  padding: 0 1rem;
 
-  .spacer {
-    flex: 1;
-  }
+  // border-bottom: 2.5px solid $lime-green;
+
   #logo {
-    width: 200px;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    margin: 5%;
+    height: 75%;
   }
 }
 
 .nav {
-  &-items {
+  &-links {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    margin-right: 1.5rem;
   }
 
-  &-item{
+  &-link {
     padding: 0 0.5rem;
-    a {
-      color: white;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $lime-green;
       text-decoration: none;
-      &:hover{
-        color: $lime-green;
-        text-decoration: none;
-      }
-      &:active {
-        color: $lime-green;
-        text-decoration: none;
-      }
+    }
+
+    &:active {
+      color: $lime-green;
+      text-decoration: none;
     }
   }
 }
-
-
